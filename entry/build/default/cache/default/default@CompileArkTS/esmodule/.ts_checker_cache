@@ -1,0 +1,1401 @@
+{
+  "runtimeOS": "HarmonyOS",
+  "sdkInfo": "false:9:3.2.3.6:Release",
+  "fileList": {
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\agency\\pages\\AgencyCard.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\progress\\pages\\ProgressCard.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\entryability\\EntryAbility.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\model\\RdbColumnModel.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\database\\rdb\\RdbUtils.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\utils\\Logger.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\utils\\FormUtils.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\utils\\GlobalContext.ets"
+      ],
+      "parent": [],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\entryformability\\EntryFormAbility.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\FormInfo.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\utils\\FormUtils.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets"
+      ],
+      "parent": [],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\pages\\SplashPage.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\utils\\Logger.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\dialog\\UserPrivacyDialog.ets"
+      ],
+      "parent": [],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\pages\\AdvertisingPage.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets"
+      ],
+      "parent": [],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\pages\\MainPage.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\utils\\Logger.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\model\\TaskInitList.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\model\\NavItemModel.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\HomeComponent.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\AchievementComponent.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\pages\\MinePage.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\HomeViewModel.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\database\\tables\\GlobalInfoApi.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\GlobalInfo.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\utils\\GlobalContext.ets"
+      ],
+      "parent": [],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\pages\\TaskListPage.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\model\\TaskInitList.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\task\\TaskListComponent.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\TaskViewModel.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\TaskInfo.ets"
+      ],
+      "parent": [],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\pages\\TaskEditPage.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\task\\TaskDetailComponent.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets"
+      ],
+      "parent": [],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\CommonConstantsInfo.ets"
+      ],
+      "parent": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\entryability\\EntryAbility.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\utils\\FormUtils.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\dataBase\\tables\\FormInfoApi.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\dataBase\\tables\\DayInfoApi.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\dataBase\\tables\\TaskInfoApi.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\model\\TaskInitList.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\entryformability\\EntryFormAbility.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\pages\\SplashPage.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\dialog\\UserPrivacyDialog.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\pages\\AdvertisingPage.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\pages\\MainPage.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\HomeComponent.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\HealthTextComponent.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\home\\AddBtnComponent.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\home\\TaskCardComponent.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\home\\HomeTopComponent.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\HomeViewModel.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\database\\tables\\GlobalInfoApi.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\model\\DatabaseModel.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\home\\WeekCalendarComponent.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\CalendarViewModel.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\dialog\\AchievementDialog.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\dialog\\TaskDetailDialog.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\AchievementComponent.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\BadgePanelComponent.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\BadgeCardComponent.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\TitleBarComponent.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\pages\\MinePage.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\pages\\TaskListPage.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\task\\TaskListComponent.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\TaskViewModel.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\service\\ReminderAgent.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\pages\\TaskEditPage.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\task\\TaskDetailComponent.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\task\\TaskEditListItem.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\dialog\\TaskDialogView.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\dialog\\TaskSettingDialog.ets"
+      ],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\model\\RdbColumnModel.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\ColumnInfo.ets"
+      ],
+      "parent": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\entryability\\EntryAbility.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\utils\\FormUtils.ets"
+      ],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\database\\rdb\\RdbUtils.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\ColumnInfo.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\database\\rdb\\RdbHelper.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\database\\rdb\\RdbHelperImp.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\utils\\Logger.ets"
+      ],
+      "parent": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\entryability\\EntryAbility.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\utils\\FormUtils.ets"
+      ],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\utils\\Logger.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [],
+      "parent": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\entryability\\EntryAbility.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\database\\rdb\\RdbUtils.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\database\\rdb\\RdbHelperImp.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\database\\rdb\\TableHelper.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\utils\\FormUtils.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\dataBase\\tables\\FormInfoApi.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\dataBase\\tables\\DayInfoApi.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\dataBase\\tables\\TaskInfoApi.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\pages\\SplashPage.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\pages\\MainPage.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\HomeViewModel.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\database\\tables\\GlobalInfoApi.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\model\\WeekCalendarModel.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\model\\DatabaseModel.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\home\\WeekCalendarComponent.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\CalendarViewModel.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\dialog\\CustomDialogView.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\utils\\BroadCast.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\utils\\HealthDataSrcMgr.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\AchievementComponent.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\BadgePanelComponent.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\TaskViewModel.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\service\\ReminderAgent.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\task\\TaskDetailComponent.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\dialog\\TaskDialogView.ets"
+      ],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\utils\\FormUtils.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\database\\rdb\\RdbUtils.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\dataBase\\tables\\FormInfoApi.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\dataBase\\tables\\DayInfoApi.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\dataBase\\tables\\TaskInfoApi.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\AgencyCardInfo.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\FormInfo.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\utils\\Logger.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\ProgressCardInfo.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\TaskInfo.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\model\\RdbColumnModel.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\DayInfo.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\utils\\GlobalContext.ets"
+      ],
+      "parent": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\entryability\\EntryAbility.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\entryformability\\EntryFormAbility.ets"
+      ],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\utils\\GlobalContext.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [],
+      "parent": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\entryability\\EntryAbility.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\utils\\FormUtils.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\pages\\MainPage.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\dialog\\TaskDetailDialog.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\task\\TaskDetailComponent.ets"
+      ],
+      "error": false
+    },
+    "D:\\HuaWeiDevEco\\openharmony\\9\\ets\\api\\@ohos.app.ability.UIAbility.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "D:\\HuaWeiDevEco\\openharmony\\9\\ets\\api\\@ohos.app.ability.Ability.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "D:\\HuaWeiDevEco\\openharmony\\9\\ets\\api\\@ohos.app.ability.Configuration.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "D:\\HuaWeiDevEco\\openharmony\\9\\ets\\api\\application\\UIAbilityContext.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "D:\\HuaWeiDevEco\\openharmony\\9\\ets\\api\\bundleManager\\AbilityInfo.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "D:\\HuaWeiDevEco\\openharmony\\9\\ets\\api\\bundleManager\\ApplicationInfo.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "D:\\HuaWeiDevEco\\openharmony\\9\\ets\\api\\@ohos.bundle.bundleManager.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "D:\\HuaWeiDevEco\\openharmony\\9\\ets\\api\\bundleManager\\BundleInfo.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "D:\\HuaWeiDevEco\\openharmony\\9\\ets\\api\\bundleManager\\HapModuleInfo.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "D:\\HuaWeiDevEco\\openharmony\\9\\ets\\api\\bundleManager\\ExtensionAbilityInfo.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "D:\\HuaWeiDevEco\\openharmony\\9\\ets\\api\\ability\\abilityResult.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "D:\\HuaWeiDevEco\\openharmony\\9\\ets\\api\\ability\\connectOptions.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "D:\\HuaWeiDevEco\\openharmony\\9\\ets\\api\\@ohos.rpc.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "D:\\HuaWeiDevEco\\openharmony\\9\\ets\\api\\application\\Context.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "D:\\HuaWeiDevEco\\openharmony\\9\\ets\\api\\@ohos.resourceManager.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "D:\\HuaWeiDevEco\\openharmony\\9\\ets\\api\\application\\ApplicationContext.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "D:\\HuaWeiDevEco\\openharmony\\9\\ets\\api\\@ohos.app.ability.AbilityLifecycleCallback.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "D:\\HuaWeiDevEco\\openharmony\\9\\ets\\api\\@ohos.window.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "D:\\HuaWeiDevEco\\openharmony\\9\\ets\\api\\@ohos.multimedia.image.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "D:\\HuaWeiDevEco\\openharmony\\9\\ets\\api\\@ohos.app.ability.EnvironmentCallback.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "D:\\HuaWeiDevEco\\openharmony\\9\\ets\\api\\@ohos.app.ability.dialogRequest.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\CommonConstantsInfo.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [],
+      "parent": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets"
+      ],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\ColumnInfo.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [],
+      "parent": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\model\\RdbColumnModel.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\database\\rdb\\RdbUtils.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\database\\rdb\\RdbHelper.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\database\\rdb\\RdbHelperImp.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\database\\rdb\\TableHelper.ets"
+      ],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\database\\rdb\\RdbHelper.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\ColumnInfo.ets"
+      ],
+      "parent": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\database\\rdb\\RdbUtils.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\database\\rdb\\RdbHelperImp.ets"
+      ],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\database\\rdb\\RdbHelperImp.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\database\\rdb\\TableHelper.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\database\\rdb\\RdbHelper.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\ColumnInfo.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\utils\\Logger.ets"
+      ],
+      "parent": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\database\\rdb\\RdbUtils.ets"
+      ],
+      "error": false
+    },
+    "D:\\HuaWeiDevEco\\openharmony\\9\\ets\\api\\@ohos.data.relationalStore.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\database\\rdb\\TableHelper.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\ColumnInfo.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\utils\\Logger.ets"
+      ],
+      "parent": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\database\\rdb\\RdbHelperImp.ets"
+      ],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\dataBase\\tables\\FormInfoApi.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\FormInfo.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\dataBase\\Rdb\\RdbUtils.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\utils\\Logger.ets"
+      ],
+      "parent": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\utils\\FormUtils.ets"
+      ],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\dataBase\\tables\\DayInfoApi.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\DayInfo.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\dataBase\\Rdb\\RdbUtils.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\utils\\Logger.ets"
+      ],
+      "parent": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\utils\\FormUtils.ets"
+      ],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\dataBase\\tables\\TaskInfoApi.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\TaskInfo.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\dataBase\\Rdb\\RdbUtils.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\utils\\Logger.ets"
+      ],
+      "parent": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\utils\\FormUtils.ets"
+      ],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\AgencyCardInfo.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [],
+      "parent": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\utils\\FormUtils.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\ProgressCardInfo.ets"
+      ],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\FormInfo.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [],
+      "parent": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\utils\\FormUtils.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\dataBase\\tables\\FormInfoApi.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\entryformability\\EntryFormAbility.ets"
+      ],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\ProgressCardInfo.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\AgencyCardInfo.ets"
+      ],
+      "parent": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\utils\\FormUtils.ets"
+      ],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\TaskInfo.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\utils\\Utils.ets"
+      ],
+      "parent": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\utils\\FormUtils.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\dataBase\\tables\\TaskInfoApi.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\model\\TaskInitList.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\HomeComponent.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\home\\TaskCardComponent.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\HomeViewModel.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\model\\WeekCalendarModel.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\model\\DatabaseModel.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\dialog\\CustomDialogView.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\dialog\\TaskDetailDialog.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\utils\\BroadCast.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\pages\\TaskListPage.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\TaskViewModel.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\task\\TaskDetailComponent.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\task\\TaskEditListItem.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\dialog\\TaskSettingDialog.ets"
+      ],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\DayInfo.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [],
+      "parent": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\utils\\FormUtils.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\dataBase\\tables\\DayInfoApi.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\HomeViewModel.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\model\\WeekCalendarModel.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\model\\DatabaseModel.ets"
+      ],
+      "error": false
+    },
+    "D:\\HuaWeiDevEco\\openharmony\\9\\ets\\api\\@ohos.app.form.formProvider.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "D:\\HuaWeiDevEco\\openharmony\\9\\ets\\api\\@ohos.app.form.formInfo.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\dataBase\\Rdb\\RdbUtils.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [],
+      "parent": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\dataBase\\tables\\FormInfoApi.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\dataBase\\tables\\DayInfoApi.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\dataBase\\tables\\TaskInfoApi.ets"
+      ],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\utils\\Utils.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\model\\TaskInitList.ets"
+      ],
+      "parent": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\TaskInfo.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\HomeViewModel.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\model\\WeekCalendarModel.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\home\\WeekCalendarComponent.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\BadgeCardComponent.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\TaskViewModel.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\dialog\\TaskSettingDialog.ets"
+      ],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\model\\TaskInitList.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\AchievementMapInfo.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\TaskInfo.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets"
+      ],
+      "parent": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\utils\\Utils.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\pages\\MainPage.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\HomeComponent.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\home\\TaskCardComponent.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\HomeViewModel.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\model\\AchieveModel.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\dialog\\CustomDialogView.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\dialog\\AchievementDialog.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\dialog\\TaskDetailDialog.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\AchievementViewModel.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\pages\\TaskListPage.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\task\\TaskListComponent.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\TaskViewModel.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\task\\TaskDetailComponent.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\task\\TaskEditListItem.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\dialog\\TaskSettingDialog.ets"
+      ],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\AchievementMapInfo.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [],
+      "parent": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\model\\TaskInitList.ets"
+      ],
+      "error": false
+    },
+    "D:\\HuaWeiDevEco\\openharmony\\9\\ets\\api\\@ohos.app.form.FormExtensionAbility.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "D:\\HuaWeiDevEco\\openharmony\\9\\ets\\api\\application\\FormExtensionContext.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "D:\\HuaWeiDevEco\\openharmony\\9\\ets\\api\\application\\ExtensionContext.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\dialog\\UserPrivacyDialog.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets"
+      ],
+      "parent": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\pages\\SplashPage.ets"
+      ],
+      "error": false
+    },
+    "D:\\HuaWeiDevEco\\openharmony\\9\\ets\\api\\@ohos.app.ability.common.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "D:\\HuaWeiDevEco\\openharmony\\9\\ets\\api\\application\\AbilityStageContext.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "D:\\HuaWeiDevEco\\openharmony\\9\\ets\\api\\ability\\dataAbilityHelper.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "D:\\HuaWeiDevEco\\openharmony\\9\\ets\\api\\ability\\dataAbilityOperation.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "D:\\HuaWeiDevEco\\openharmony\\9\\ets\\api\\@ohos.ability.featureAbility.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "D:\\HuaWeiDevEco\\openharmony\\9\\ets\\api\\ability\\startAbilityParameter.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "D:\\HuaWeiDevEco\\openharmony\\9\\ets\\api\\app\\context.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "D:\\HuaWeiDevEco\\openharmony\\9\\ets\\api\\bundle\\applicationInfo.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "D:\\HuaWeiDevEco\\openharmony\\9\\ets\\api\\bundle\\hapModuleInfo.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "D:\\HuaWeiDevEco\\openharmony\\9\\ets\\api\\bundle\\abilityInfo.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "D:\\HuaWeiDevEco\\openharmony\\9\\ets\\api\\@ohos.bundle.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "D:\\HuaWeiDevEco\\openharmony\\9\\ets\\api\\bundle\\bundleInfo.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "D:\\HuaWeiDevEco\\openharmony\\9\\ets\\api\\@ohos.data.dataAbility.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "D:\\HuaWeiDevEco\\openharmony\\9\\ets\\api\\@ohos.data.rdb.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "D:\\HuaWeiDevEco\\openharmony\\9\\ets\\api\\@ohos.router.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "D:\\HuaWeiDevEco\\openharmony\\9\\ets\\api\\@ohos.data.preferences.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\model\\NavItemModel.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [],
+      "parent": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\pages\\MainPage.ets"
+      ],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\HomeComponent.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\HealthTextComponent.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\home\\AddBtnComponent.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\home\\TaskCardComponent.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\home\\HomeTopComponent.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\dialog\\CustomDialogView.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\TaskInfo.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\HomeViewModel.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\model\\TaskInitList.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\utils\\HealthDataSrcMgr.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\utils\\BroadCast.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\AchievementInfo.ets"
+      ],
+      "parent": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\pages\\MainPage.ets"
+      ],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\AchievementComponent.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\BadgePanelComponent.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\TitleBarComponent.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\utils\\Logger.ets"
+      ],
+      "parent": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\pages\\MainPage.ets"
+      ],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\pages\\MinePage.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\ListInfo.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\UserBaseInfo.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets"
+      ],
+      "parent": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\pages\\MainPage.ets"
+      ],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\HomeViewModel.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\model\\AchieveModel.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\model\\TaskInitList.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\TaskInfo.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\DayInfo.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\utils\\Utils.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\model\\WeekCalendarModel.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\model\\DatabaseModel.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\database\\tables\\TaskInfoApi.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\database\\tables\\DayInfoApi.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\database\\tables\\GlobalInfoApi.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\utils\\Logger.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\GlobalInfo.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\WeekCalendarInfo.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\AchievementInfo.ets"
+      ],
+      "parent": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\pages\\MainPage.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\HomeComponent.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\home\\HomeTopComponent.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\home\\WeekCalendarComponent.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\CalendarViewModel.ets"
+      ],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\database\\tables\\GlobalInfoApi.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\GlobalInfo.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\database\\Rdb\\RdbUtils.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\utils\\Logger.ets"
+      ],
+      "parent": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\pages\\MainPage.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\HomeViewModel.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\model\\AchieveModel.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\model\\DatabaseModel.ets"
+      ],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\GlobalInfo.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [],
+      "parent": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\pages\\MainPage.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\HomeViewModel.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\model\\AchieveModel.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\database\\tables\\GlobalInfoApi.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\model\\DatabaseModel.ets"
+      ],
+      "error": false
+    },
+    "D:\\HuaWeiDevEco\\openharmony\\9\\ets\\api\\@ohos.notificationManager.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "D:\\HuaWeiDevEco\\openharmony\\9\\ets\\api\\notification\\notificationActionButton.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "D:\\HuaWeiDevEco\\openharmony\\9\\ets\\api\\@ohos.wantAgent.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "D:\\HuaWeiDevEco\\openharmony\\9\\ets\\api\\wantAgent\\wantAgentInfo.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "D:\\HuaWeiDevEco\\openharmony\\9\\ets\\api\\wantAgent\\triggerInfo.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "D:\\HuaWeiDevEco\\openharmony\\9\\ets\\api\\notification\\notificationContent.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "D:\\HuaWeiDevEco\\openharmony\\9\\ets\\api\\@ohos.notification.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "D:\\HuaWeiDevEco\\openharmony\\9\\ets\\api\\notification\\notificationRequest.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "D:\\HuaWeiDevEco\\openharmony\\9\\ets\\api\\notification\\notificationSlot.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\HealthTextComponent.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets"
+      ],
+      "parent": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\HomeComponent.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\home\\TaskCardComponent.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\home\\HomeTopComponent.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\home\\WeekCalendarComponent.ets"
+      ],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\home\\AddBtnComponent.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets"
+      ],
+      "parent": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\HomeComponent.ets"
+      ],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\home\\TaskCardComponent.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\model\\TaskInitList.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\HealthTextComponent.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\TaskInfo.ets"
+      ],
+      "parent": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\HomeComponent.ets"
+      ],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\home\\HomeTopComponent.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\HomeViewModel.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\home\\WeekCalendarComponent.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\HealthTextComponent.ets"
+      ],
+      "parent": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\HomeComponent.ets"
+      ],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\dialog\\CustomDialogView.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\dialog\\AchievementDialog.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\dialog\\TaskDetailDialog.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\utils\\BroadCast.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\model\\TaskInitList.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\TaskInfo.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\utils\\Logger.ets"
+      ],
+      "parent": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\HomeComponent.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\dialog\\TaskDetailDialog.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\utils\\BroadCast.ets"
+      ],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\utils\\HealthDataSrcMgr.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\utils\\BroadCast.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\utils\\Logger.ets"
+      ],
+      "parent": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\HomeComponent.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\task\\TaskDetailComponent.ets"
+      ],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\utils\\BroadCast.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\dialog\\CustomDialogView.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\BroadCastCallBackInfo.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\TaskInfo.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\utils\\Logger.ets"
+      ],
+      "parent": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\HomeComponent.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\dialog\\CustomDialogView.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\utils\\HealthDataSrcMgr.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\task\\TaskDetailComponent.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\dialog\\TaskDialogView.ets"
+      ],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\AchievementInfo.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [],
+      "parent": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\HomeComponent.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\HomeViewModel.ets"
+      ],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\home\\WeekCalendarComponent.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\CalendarViewModel.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\HomeViewModel.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\HealthTextComponent.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\model\\WeekCalendarModel.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\utils\\Utils.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\utils\\Logger.ets"
+      ],
+      "parent": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\home\\HomeTopComponent.ets"
+      ],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\model\\AchieveModel.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\model\\TaskInitList.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\GlobalInfo.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\database\\tables\\GlobalInfoApi.ets"
+      ],
+      "parent": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\HomeViewModel.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\BadgePanelComponent.ets"
+      ],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\model\\WeekCalendarModel.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\TaskInfo.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\DayInfo.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\utils\\Utils.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\utils\\Logger.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\WeekCalendarInfo.ets"
+      ],
+      "parent": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\HomeViewModel.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\WeekCalendarInfo.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\home\\WeekCalendarComponent.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\CalendarViewModel.ets"
+      ],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\model\\DatabaseModel.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\DayInfo.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\GlobalInfo.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\TaskInfo.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\database\\tables\\DayInfoApi.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\database\\tables\\GlobalInfoApi.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\database\\tables\\TaskInfoApi.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\utils\\Logger.ets"
+      ],
+      "parent": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\HomeViewModel.ets"
+      ],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\database\\tables\\TaskInfoApi.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [],
+      "parent": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\HomeViewModel.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\model\\DatabaseModel.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\TaskViewModel.ets"
+      ],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\database\\tables\\DayInfoApi.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [],
+      "parent": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\HomeViewModel.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\model\\DatabaseModel.ets"
+      ],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\WeekCalendarInfo.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\model\\WeekCalendarModel.ets"
+      ],
+      "parent": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\HomeViewModel.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\model\\WeekCalendarModel.ets"
+      ],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\database\\Rdb\\RdbUtils.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [],
+      "parent": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\database\\tables\\GlobalInfoApi.ets"
+      ],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\CalendarViewModel.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\model\\WeekCalendarModel.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\utils\\Logger.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\WeekCalendarMethodInfo.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\HomeViewModel.ets"
+      ],
+      "parent": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\home\\WeekCalendarComponent.ets"
+      ],
+      "error": false
+    },
+    "D:\\HuaWeiDevEco\\openharmony\\9\\ets\\api\\@ohos.display.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\WeekCalendarMethodInfo.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [],
+      "parent": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\CalendarViewModel.ets"
+      ],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\dialog\\AchievementDialog.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\model\\TaskInitList.ets"
+      ],
+      "parent": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\dialog\\CustomDialogView.ets"
+      ],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\dialog\\TaskDetailDialog.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\dialog\\CustomDialogView.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\TaskInfo.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\model\\TaskInitList.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\utils\\GlobalContext.ets"
+      ],
+      "parent": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\dialog\\CustomDialogView.ets"
+      ],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\BroadCastCallBackInfo.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [],
+      "parent": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\utils\\BroadCast.ets"
+      ],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\BadgePanelComponent.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\BadgeCardComponent.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\model\\AchieveModel.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\AchievementViewModel.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\utils\\Logger.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\model\\AchieveModel.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\CardInfo.ets"
+      ],
+      "parent": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\AchievementComponent.ets"
+      ],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\TitleBarComponent.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets"
+      ],
+      "parent": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\AchievementComponent.ets"
+      ],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\BadgeCardComponent.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\utils\\Utils.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets"
+      ],
+      "parent": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\BadgePanelComponent.ets"
+      ],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\AchievementViewModel.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\CardInfo.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\model\\TaskInitList.ets"
+      ],
+      "parent": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\BadgePanelComponent.ets"
+      ],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\CardInfo.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [],
+      "parent": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\BadgePanelComponent.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\AchievementViewModel.ets"
+      ],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\ListInfo.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\model\\Mine.ets"
+      ],
+      "parent": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\pages\\MinePage.ets"
+      ],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\UserBaseInfo.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [],
+      "parent": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\pages\\MinePage.ets"
+      ],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\model\\Mine.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [],
+      "parent": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\ListInfo.ets"
+      ],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\task\\TaskListComponent.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\TaskViewModel.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\model\\TaskInitList.ets"
+      ],
+      "parent": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\pages\\TaskListPage.ets"
+      ],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\TaskViewModel.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\utils\\Logger.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\service\\ReminderAgent.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\database\\tables\\TaskInfoApi.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\utils\\Utils.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\TaskInfo.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\model\\TaskInitList.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\PublishReminderInfo.ets"
+      ],
+      "parent": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\pages\\TaskListPage.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\task\\TaskListComponent.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\task\\TaskDetailComponent.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\dialog\\TaskSettingDialog.ets"
+      ],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\service\\ReminderAgent.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\utils\\Logger.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\ReminderInfo.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\PublishReminderInfo.ets"
+      ],
+      "parent": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\TaskViewModel.ets"
+      ],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\PublishReminderInfo.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [],
+      "parent": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\TaskViewModel.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\service\\ReminderAgent.ets"
+      ],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\ReminderInfo.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [],
+      "parent": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\service\\ReminderAgent.ets"
+      ],
+      "error": false
+    },
+    "D:\\HuaWeiDevEco\\openharmony\\9\\ets\\api\\@ohos.reminderAgentManager.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\task\\TaskDetailComponent.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\model\\TaskInitList.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\utils\\Logger.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\TaskInfo.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\task\\TaskEditListItem.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\utils\\BroadCast.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\utils\\HealthDataSrcMgr.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\TaskViewModel.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\dialog\\TaskDialogView.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\utils\\GlobalContext.ets"
+      ],
+      "parent": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\pages\\TaskEditPage.ets"
+      ],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\task\\TaskEditListItem.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\model\\TaskInitList.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\TaskInfo.ets"
+      ],
+      "parent": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\task\\TaskDetailComponent.ets"
+      ],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\dialog\\TaskDialogView.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\dialog\\TaskSettingDialog.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\utils\\BroadCast.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\utils\\Logger.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets"
+      ],
+      "parent": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\task\\TaskDetailComponent.ets"
+      ],
+      "error": false
+    },
+    "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\dialog\\TaskSettingDialog.ets": {
+      "mtimeMs": 1698043038000,
+      "children": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\model\\TaskInitList.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\utils\\Utils.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\TaskViewModel.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\viewmodel\\TaskInfo.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets",
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\model\\TaskInitList.ets"
+      ],
+      "parent": [
+        "D:\\hmProject\\Healthy_life\\entry\\src\\main\\ets\\view\\dialog\\TaskDialogView.ets"
+      ],
+      "error": false
+    },
+    "D:\\HuaWeiDevEco\\openharmony\\9\\ets\\build-tools\\ets-loader\\declarations\\canvas.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "D:\\HuaWeiDevEco\\openharmony\\9\\ets\\build-tools\\ets-loader\\declarations\\common.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "D:\\HuaWeiDevEco\\openharmony\\9\\ets\\component\\common.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "D:\\HuaWeiDevEco\\openharmony\\9\\ets\\build-tools\\ets-loader\\declarations\\web.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "D:\\HuaWeiDevEco\\openharmony\\9\\ets\\api\\@ohos.web.webview.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "D:\\HuaWeiDevEco\\openharmony\\9\\ets\\build-tools\\ets-loader\\declarations\\matrix2d.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    }
+  }
+}
